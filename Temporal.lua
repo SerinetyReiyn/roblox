@@ -67,7 +67,7 @@ end
 --Functions
 
 function rotateCamera(x, y) --Function for rotating camera along X and Y axis with the MoveMouse function.
-    MoveMouse(y / Y_CHANGE, x / X_CHANGE) --Move the mouse to turn the camera.
+    MoveMouse((y / Y_CHANGE), x / X_CHANGE) --Move the mouse to turn the camera.
 end
 
 function isHovering(frame)
